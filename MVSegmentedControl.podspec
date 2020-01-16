@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MVSegmentedControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The unofficial swift Segmented Control library for iOS.'
   s.description      = <<-DESC
 A highly configurable Segmented Control that can be configure in style of iOS 12 or iOS 13 or other custom style.
@@ -26,7 +26,7 @@ A highly configurable Segmented Control that can be configure in style of iOS 12
   s.ios.deployment_target = '9.0'
   s.swift_version    = '5'
 
-  s.source_files = 'MVSegmentedControl/Classes/**/*.{swift}'
+  s.source_files = 'MVSegmentedControl/Classes/*.{swift}'
 
   s.frameworks = 'UIKit'
 end
