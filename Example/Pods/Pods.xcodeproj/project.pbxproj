@@ -17,30 +17,30 @@
 		233DB5D3E8A86A1CFE0EB0A573A0DB60 /* MVSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F9F02FC202FDADC8CC3D5244CD46F8 /* MVSegmentedControl-dummy.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4EE89498C11908B24F4AAD8FE8DC6B66 /* MVSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D039868CAC0CE80731689CB4F00D71C /* MVSelectionView.swift */; };
-		5259BD078B7D5AF0A9EDEEB2A7F00ABC /* MVLabelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605BBABDD3E842D2EB17A2CDEEFE570 /* MVLabelConfiguration.swift */; };
 		6823F897C626DEB88484ABBED9E96F53 /* Pods-MVSegmentedControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 138AE0AFD787C99F33FB693999EA43F1 /* Pods-MVSegmentedControl_Tests-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		7ACBDD3B64BBB58B499E639DB6F0D41B /* MVSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF9F4499230E7A441C3A933DAC713C1 /* MVSeparator.swift */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92A6AC9CC8D64A2E521BC96BAE4DA7FC /* MVSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF282CD5F2C692267B2C9F206C310C1 /* MVSegmentView.swift */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
 		AEAC0E23439D5B74E13D712862BCE008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4D8B8A2F36EA4D4E65AA8ABD98F83AF /* MVSegmentedControlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CD89F08EA29AA9C22F282E90BFEF7 /* MVSegmentedControlConfiguration.swift */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D42A7820F2B0621730AB3E4ED9EB4ACE /* Pods-MVSegmentedControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D4DF8F6229EAD4D902DF9DAF531070 /* Pods-MVSegmentedControl_Example-dummy.m */; };
 		D499334037516B2679456B18BED69957 /* Pods-MVSegmentedControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46874E9390BB3E121DE5E455DD1AC51B /* Pods-MVSegmentedControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4A2E786270F434CE6AC8147741D1113 /* MVSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCB4F4551AB888D4E54E891DB2118A /* MVSegmentedControl.swift */; };
 		DA0BBBF7139176E9F937F440D8C31245 /* MVSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD79A931D78194B9FB2D4E6B82266FD /* MVSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		F0A299A623D0AB890063B3FD /* MVSegmentedControlConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A023D0AB890063B3FD /* MVSegmentedControlConfiguration.swift */; };
+		F0A299A723D0AB890063B3FD /* MVLabelConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A123D0AB890063B3FD /* MVLabelConfiguration.swift */; };
+		F0A299A823D0AB890063B3FD /* MVSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A223D0AB890063B3FD /* MVSeparator.swift */; };
+		F0A299A923D0AB890063B3FD /* MVSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A323D0AB890063B3FD /* MVSegmentView.swift */; };
+		F0A299AA23D0AB890063B3FD /* MVSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A423D0AB890063B3FD /* MVSegmentedControl.swift */; };
+		F0A299AB23D0AB890063B3FD /* MVSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A299A523D0AB890063B3FD /* MVSelectionView.swift */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -72,7 +72,6 @@
 /* Begin PBXFileReference section */
 		0415B146D44923EA0B669924AC703281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0EF9F4499230E7A441C3A933DAC713C1 /* MVSeparator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVSeparator.swift; path = MVSegmentedControl/Classes/MVSeparator.swift; sourceTree = "<group>"; };
 		102B069D6D9A8A221B5E7E75A5144E76 /* Pods-MVSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13285DD990121CC24C758D20077D10BB /* Pods-MVSegmentedControl_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MVSegmentedControl_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		138AE0AFD787C99F33FB693999EA43F1 /* Pods-MVSegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVSegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -98,13 +97,10 @@
 		64580ABA3ED26910F668EA348A014A46 /* MVSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MVSegmentedControl.xcconfig; sourceTree = "<group>"; };
 		67A86E7A17D6A3C0B07AE1A7411AB799 /* MVSegmentedControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MVSegmentedControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C97B5FA4781BE39B4A58C900D6E9477 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6F3CD89F08EA29AA9C22F282E90BFEF7 /* MVSegmentedControlConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVSegmentedControlConfiguration.swift; path = MVSegmentedControl/Classes/MVSegmentedControlConfiguration.swift; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		75BCB4F4551AB888D4E54E891DB2118A /* MVSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVSegmentedControl.swift; path = MVSegmentedControl/Classes/MVSegmentedControl.swift; sourceTree = "<group>"; };
 		79D4DF8F6229EAD4D902DF9DAF531070 /* Pods-MVSegmentedControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVSegmentedControl_Example-dummy.m"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D039868CAC0CE80731689CB4F00D71C /* MVSelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVSelectionView.swift; path = MVSegmentedControl/Classes/MVSelectionView.swift; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -117,7 +113,6 @@
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		ADFE1869E6D3E344A9137CD0CECCFD3B /* Pods-MVSegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVSegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2BABB731FD45EDA67BDEB5DA1878F7C /* Pods-MVSegmentedControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVSegmentedControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B605BBABDD3E842D2EB17A2CDEEFE570 /* MVLabelConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVLabelConfiguration.swift; path = MVSegmentedControl/Classes/MVLabelConfiguration.swift; sourceTree = "<group>"; };
 		BA148CCA46452F19FC796C8B5C39BD60 /* Pods_MVSegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVSegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF402BD323152229A635C3749A8BAB0 /* Pods-MVSegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVSegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
 		CB625DA12522D8DB099A07F0E2E5BA09 /* MVSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +127,12 @@
 		E8F9F02FC202FDADC8CC3D5244CD46F8 /* MVSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MVSegmentedControl-dummy.m"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		FAF282CD5F2C692267B2C9F206C310C1 /* MVSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MVSegmentView.swift; path = MVSegmentedControl/Classes/MVSegmentView.swift; sourceTree = "<group>"; };
+		F0A299A023D0AB890063B3FD /* MVSegmentedControlConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVSegmentedControlConfiguration.swift; path = MVSegmentedControl/MVSegmentedControlConfiguration.swift; sourceTree = "<group>"; };
+		F0A299A123D0AB890063B3FD /* MVLabelConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVLabelConfiguration.swift; path = MVSegmentedControl/MVLabelConfiguration.swift; sourceTree = "<group>"; };
+		F0A299A223D0AB890063B3FD /* MVSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVSeparator.swift; path = MVSegmentedControl/MVSeparator.swift; sourceTree = "<group>"; };
+		F0A299A323D0AB890063B3FD /* MVSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVSegmentView.swift; path = MVSegmentedControl/MVSegmentView.swift; sourceTree = "<group>"; };
+		F0A299A423D0AB890063B3FD /* MVSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVSegmentedControl.swift; path = MVSegmentedControl/MVSegmentedControl.swift; sourceTree = "<group>"; };
+		F0A299A523D0AB890063B3FD /* MVSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVSelectionView.swift; path = MVSegmentedControl/MVSelectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,12 +197,12 @@
 		32359AC23881B20F57357676F6B2AB2C /* MVSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				B605BBABDD3E842D2EB17A2CDEEFE570 /* MVLabelConfiguration.swift */,
-				75BCB4F4551AB888D4E54E891DB2118A /* MVSegmentedControl.swift */,
-				6F3CD89F08EA29AA9C22F282E90BFEF7 /* MVSegmentedControlConfiguration.swift */,
-				FAF282CD5F2C692267B2C9F206C310C1 /* MVSegmentView.swift */,
-				7D039868CAC0CE80731689CB4F00D71C /* MVSelectionView.swift */,
-				0EF9F4499230E7A441C3A933DAC713C1 /* MVSeparator.swift */,
+				F0A299A123D0AB890063B3FD /* MVLabelConfiguration.swift */,
+				F0A299A423D0AB890063B3FD /* MVSegmentedControl.swift */,
+				F0A299A023D0AB890063B3FD /* MVSegmentedControlConfiguration.swift */,
+				F0A299A323D0AB890063B3FD /* MVSegmentView.swift */,
+				F0A299A523D0AB890063B3FD /* MVSelectionView.swift */,
+				F0A299A223D0AB890063B3FD /* MVSeparator.swift */,
 				D795163C57D8724614C367A2D114140F /* Pod */,
 				B8875F2D056D3CB889B08110ADC9DA87 /* Support Files */,
 			);
@@ -569,14 +569,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A299A623D0AB890063B3FD /* MVSegmentedControlConfiguration.swift in Sources */,
+				F0A299AA23D0AB890063B3FD /* MVSegmentedControl.swift in Sources */,
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
 				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
 				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				F0A299A923D0AB890063B3FD /* MVSegmentView.swift in Sources */,
+				F0A299AB23D0AB890063B3FD /* MVSelectionView.swift in Sources */,
 				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				F0A299A823D0AB890063B3FD /* MVSeparator.swift in Sources */,
 				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				F0A299A723D0AB890063B3FD /* MVLabelConfiguration.swift in Sources */,
 				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,13 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5259BD078B7D5AF0A9EDEEB2A7F00ABC /* MVLabelConfiguration.swift in Sources */,
 				233DB5D3E8A86A1CFE0EB0A573A0DB60 /* MVSegmentedControl-dummy.m in Sources */,
-				D4A2E786270F434CE6AC8147741D1113 /* MVSegmentedControl.swift in Sources */,
-				C4D8B8A2F36EA4D4E65AA8ABD98F83AF /* MVSegmentedControlConfiguration.swift in Sources */,
-				92A6AC9CC8D64A2E521BC96BAE4DA7FC /* MVSegmentView.swift in Sources */,
-				4EE89498C11908B24F4AAD8FE8DC6B66 /* MVSelectionView.swift in Sources */,
-				7ACBDD3B64BBB58B499E639DB6F0D41B /* MVSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
