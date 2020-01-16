@@ -24,6 +24,7 @@ A highly configurable Segmented Control that can be configure in style of iOS 12
   s.source           = { :git => 'https://github.com/makc99/MVSegmentedControl.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  s.swift_version    = '5'
 
   s.source_files = 'MVSegmentedControl/Classes/**/*.{swift}'
 
