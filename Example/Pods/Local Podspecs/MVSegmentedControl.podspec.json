@@ -1,0 +1,22 @@
+{
+  "name": "MVSegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of MVSegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Maxim Matyukov/MVSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maxim Matyukov": "maxim.matyukov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Maxim Matyukov/MVSegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MVSegmentedControl/Classes/**/*"
+}

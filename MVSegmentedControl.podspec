@@ -9,34 +9,23 @@
 Pod::Spec.new do |s|
   s.name             = 'MVSegmentedControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MVSegmentedControl.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'The unofficial swift Segmented Control library for iOS.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A highly configurable Segmented Control that can be configure in style of iOS 12 or iOS 13 or other custom style.
+
+* Layout implemented via constraints
+* Ability to configure a control in iOS 12 or 13 or custom style.
+* Designable into Interface Builder
                        DESC
 
-  s.homepage         = 'https://github.com/Maxim Matyukov/MVSegmentedControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/makc99/MVSegmentedControl'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Maxim Matyukov' => 'maxim.matyukov@coolclever.ru' }
-  s.source           = { :git => 'https://github.com/Maxim Matyukov/MVSegmentedControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Maxim Matyukov' => 'maxim.matyukov@gmail.com' }
+  s.source           = { :git => 'https://github.com/makc99/MVSegmentedControl.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MVSegmentedControl/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MVSegmentedControl' => ['MVSegmentedControl/Assets/*.png']
-  # }
+  s.source_files = 'MVSegmentedControl/Classes/**/*.{swift}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
