@@ -333,11 +333,14 @@ private extension MVSegmentedControl {
 
 private extension MVSegmentedControl {
     func updateSelectionViewPosition() {
-        centerXSelectedSegmentViewConstraint?.constant = CGFloat(selectedSegmentIndex) * segmentViewWidth + (2 * separatorOffset + separatorWidth) * CGFloat(selectedSegmentIndex)
+        updateSelectionViewPositionAt(selectedSegmentIndex)
     }
     
     func updateSelectionViewPositionAt(_ index: Int) {
-        centerXSelectedSegmentViewConstraint?.constant = CGFloat(index) * segmentViewWidth + (2 * separatorOffset + separatorWidth) * CGFloat(selectedSegmentIndex)
+        let segmentView = segmentsViews[index]
+        centerXSelectedSegmentViewConstraint?.isActive = false
+        centerXSelectedSegmentViewConstraint = selectionView.centerXAnchor.constraint(equalTo: segmentView.centerXAnchor)
+        centerXSelectedSegmentViewConstraint?.isActive = true
     }
     
     func updateSeparatorsWidth(_ width: CGFloat) {
@@ -445,8 +448,6 @@ private extension MVSegmentedControl {
         selectionView.widthAnchor.constraint(equalTo: segmentsViews.first!.widthAnchor, constant: -selectionOffset).isActive = true
         selectionView.heightAnchor.constraint(equalTo: segmentsViews.first!.heightAnchor, constant: -selectionOffset).isActive = true
         selectionView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-        centerXSelectedSegmentViewConstraint = selectionView.centerXAnchor.constraint(equalTo: segmentsViews.first!.centerXAnchor)
-        centerXSelectedSegmentViewConstraint?.isActive = true
     }
     
     func setupConstraintsOfSeparator(_ separator: UIView, leftView: UIView, rightView: UIView) {
@@ -535,14 +536,9 @@ private extension MVSegmentedControl {
         if selectedSegmentIndex == 0, from.x > to.x { return }
         if selectedSegmentIndex == segmentsCount - 1, from.x < to.x { return }
         
-        let centerXConstant = CGFloat(selectedSegmentIndex) * segmentViewWidth + to.x - from.x
-        if centerXConstant < 0, to.x - from.x < 0 {
-            centerXSelectedSegmentViewConstraint?.constant = 0
-        } else if centerXConstant > (segmentsViews.last?.frame.origin.x ?? 0 + segmentViewWidth / 2), to.x - from.x > 0 {
-            centerXSelectedSegmentViewConstraint?.constant = CGFloat(segmentsCount - 1) * segmentViewWidth
-        } else {
-            centerXSelectedSegmentViewConstraint?.constant = centerXConstant
-        }
+        centerXSelectedSegmentViewConstraint?.isActive = false
+        centerXSelectedSegmentViewConstraint = selectionView.centerXAnchor.constraint(equalTo: segmentsViews[selectedSegmentIndex].centerXAnchor, constant: to.x - from.x)
+        centerXSelectedSegmentViewConstraint?.isActive = true
     }
     
     func segmentViewByPoint(_ point: CGPoint) -> MVSegmentView? {

@@ -54,5 +54,22 @@ class ViewController: UIViewController {
         segmentedControl2.borderWidth = 2
         segmentedControl2.separatorWidth = 2
         segmentedControl2.cornerRadius = 10
+        
+        let segmentedControl3 = MVSegmentedControl()
+        view.addSubview(segmentedControl3)
+        segmentedControl3.translatesAutoresizingMaskIntoConstraints = false
+        segmentedControl3.widthAnchor.constraint(equalToConstant: 300.0).isActive = true
+        segmentedControl3.topAnchor.constraint(equalTo: segmentedControl2.bottomAnchor, constant: 60.0).isActive = true
+        segmentedControl3.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        
+        let configuration = MVSegmentedControlConfiguration(cornerRadius: 5,
+                                                            borderWidth: 1,
+                                                            borderColor: .darkGray,
+                                                            selectionBackgroundColor: .darkGray,
+                                                            selectionLabelConfiguration: MVLabelConfiguration(textColor: .white, font: UIFont(name: "SFProText-Regular", size: 13)),
+                                                            labelConfiguration: MVLabelConfiguration(textColor: .gray, font: UIFont(name: "SFProText-Regular", size: 13)))
+        segmentedControl3.selectedSegmentIndex = 1
+        segmentedControl3.configure(configuration)
+        segmentedControl3.configureSegments(["First", "Second", "Third"])
     }
 }
