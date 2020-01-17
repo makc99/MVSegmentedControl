@@ -307,6 +307,7 @@ private extension MVSegmentedControl {
             if index > 0 {
                 let previousSegmentView = segmentsViews[index - 1]
                 let separator = separatorsViews[index - 1]
+                separator.backgroundColor = configuration.separatorColor
                 
                 addSubview(separator)
                 
@@ -317,11 +318,14 @@ private extension MVSegmentedControl {
     
     func setupSelectionView() {
         selectionView.clipsToBounds = true
+        selectionView.backgroundColor = configuration.selectionBackgroundColor
+        selectionView.layer.cornerRadius = configuration.selectionCornerRadius
         
         addSubview(selectionView)
         
         setupConstraintsOfSelectionView()
         selectionView.configureLabelsPositionsBy(segmentsViews.map({ $0.titleLabel }))
+        selectionView.configureLabels(configuration.selectionLabelConfiguration)
     }
 }
 
