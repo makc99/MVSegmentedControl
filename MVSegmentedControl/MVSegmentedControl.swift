@@ -233,15 +233,14 @@ open class MVSegmentedControl: UIControl {
 // MARK: - Configuring Segments
 
 public extension MVSegmentedControl {
-    func configureSegments(_ segments: [String]) {
-        configureSegments(segments, configuration: MVSegmentedControlConfiguration())
-    }
-    
-    func configureSegments(_ segments: [String], configuration: MVSegmentedControlConfiguration) {
+    func configureSegments(_ segments: [String], configuration: MVSegmentedControlConfiguration? = nil) {
         guard segments.count > 1 else { fatalError("Number of segments should be more 1.") }
         
         self.segments = segments
-        self.configuration = configuration
+        
+        if let configuration = configuration {
+            configure(configuration)
+        }
         
         resetViews()
     }
