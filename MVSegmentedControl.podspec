@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MVSegmentedControl'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'The unofficial swift Segmented Control library for iOS.'
   s.description      = <<-DESC
 A highly configurable Segmented Control that can be configure in style of iOS 12 or iOS 13 or other custom style.
