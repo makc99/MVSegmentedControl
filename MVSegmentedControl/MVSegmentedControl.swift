@@ -191,15 +191,14 @@ open class MVSegmentedControl: UIControl {
     
     // MARK: - Life Cycle
     
-    public convenience init(segments: [String]) {
-        self.init(segments: segments, configuration: MVSegmentedControlConfiguration())
-    }
-    
-    public init(segments: [String], configuration: MVSegmentedControlConfiguration) {
+    public init(segments: [String], configuration: MVSegmentedControlConfiguration? = nil) {
         guard segments.count > 1 else { fatalError("Number of segments should be more 1.") }
         
         self.segments = segments
-        self.configuration = configuration
+        
+        if let configuration = configuration {
+            self.configuration = configuration
+        }
         
         super.init(frame: .zero)
         
@@ -245,6 +244,24 @@ public extension MVSegmentedControl {
         self.configuration = configuration
         
         resetViews()
+    }
+    
+    func configure(_ configuration: MVSegmentedControlConfiguration) {
+        selectionOffset = configuration.selectionOffset
+        selectionBackgroundColor = configuration.selectionBackgroundColor
+        selectionCornerRadius = configuration.selectionCornerRadius
+        cornerRadius = configuration.cornerRadius
+        borderWidth = configuration.borderWidth
+        borderColor = configuration.borderColor
+        separatorColor = configuration.separatorColor
+        separatorWidth = configuration.separatorWidth
+        separatorOffset = configuration.separatorOffset
+        fontName = configuration.labelConfiguration.font?.fontName ?? "SFProText-Regular"
+        selectionFontName = configuration.selectionLabelConfiguration.font?.fontName ?? "SFProText-Regular"
+        fontSize = configuration.labelConfiguration.font?.pointSize ?? 13
+        selectionFontSize = configuration.selectionLabelConfiguration.font?.pointSize ?? 13
+        textColor = configuration.labelConfiguration.textColor
+        selectionTextColor = configuration.selectionLabelConfiguration.textColor
     }
 }
 
